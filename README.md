@@ -1,5 +1,13 @@
 # Registrasi dan Implementasi Mongodb Atlas
 
+## Daftar isi
+1. [Registrasi](https://github.com/tamtama17/Mongodb/blob/master/README.md#1-registrasi)
+2. [Instalasi](https://github.com/tamtama17/Mongodb/blob/master/README.md#2-instalasi)
+3. [Implementasi](https://github.com/tamtama17/Mongodb/blob/master/README.md#3-implementasi)
+   1. [Mongo Shell](https://github.com/tamtama17/Mongodb/blob/master/README.md#31-mongo-shell)
+   2. [MongoDB Compass](https://github.com/tamtama17/Mongodb/blob/master/README.md#32-mongodb-compass)
+4. [Reference](https://github.com/tamtama17/Mongodb/blob/master/README.md#reference)
+
 ### 1. Registrasi
 Hal pertama yang dilakukan adalah melakukan registrasi mongodb [disini](https://cloud.mongodb.com/user#/atlas/register/accountProfile).   
 Ikuti saja langkah-langkah nya sampai cluster terbuat   
@@ -13,9 +21,11 @@ Agar bisa diakses dari mana saja, kita harus mengaturnya di `Setup connection se
 Tambahkan ip address yang diperbolehkan untuk mengakses cluster dan buat akun untuk meremote cluster. Jika ingin membuka cluster untuk semua koneksi, bisa menggunakan `0.0.0.0/0` yang berarti bisa diakses oleh ip siapa saja.
 
 ### 3. Implementasi
-#### 3.1 Mengimport dataset
-Untuk kali ini dataset yang digunakan bertipe json, dataset yang digunakan kali ini bisa didapatkan [disini](https://data.world/badosa/uneces-country-overview).   
-Untuk menjalankan mongodb melalui cmd, kita harus ke folder bin dimana kita menginstall mongodb. Kita harus tahu host yang akan di remote, untuk bisa mengetahuinya kita bisa lihat disini :   
+Kita akan mengakses cluster yang sudah kita buat dengan 2 cara, yaitu menggunakan Mongo Shell dan MongoDB Compass
+#### 3.1 Mongo Shell
+Kita akan mengimport dataset ke cluster yang sudah kita buat. Untuk kali ini dataset yang digunakan bertipe json, dataset yang digunakan kali ini bisa didapatkan [disini](https://data.world/badosa/uneces-country-overview).   
+Untuk menjalankan mongodb melalui cmd, kita harus ke folder bin dimana kita menginstall mongodb. Atau jika ingin lebih fleksibel kita harus mendaftarkan `/bin` pada `PATH variable`.   
+Kita harus tahu host yang akan di remote, untuk bisa mengetahuinya kita bisa lihat disini :   
 ![gambar3](https://github.com/tamtama17/Mongodb/blob/master/gambar/gambar7.png "gambar3")   
 Syntax untuk mengimport dataset adalah seperti berikut :
 ```
@@ -41,7 +51,7 @@ Download MongoDB Compass [disini](https://www.mongodb.com/download-center/compas
 ![gambar7](https://github.com/tamtama17/Mongodb/blob/master/gambar/gambar10.png "gambar7")   
 Lalu buka MongoDB Compass, akan otomatis mendeteksi host dan atribut lainnya. Kita tinggal memasukkan password lalu klik connect.   
 ![gambar8](https://github.com/tamtama17/Mongodb/blob/master/gambar/gambar8.png "gambar8")   
-Kita bisa lihat bahwa dataset yang tadi kita import juga ada disini   
+Kita bisa lihat, dataset yang tadi kita import juga ada disini   
 ![gambar9](https://github.com/tamtama17/Mongodb/blob/master/gambar/gambar9.png "gambar9")   
 
 ### Reference
