@@ -1,12 +1,12 @@
 # Registrasi dan Implementasi Mongodb Atlas
 
 ## Daftar isi
-1. [Registrasi](https://github.com/tamtama17/Mongodb/blob/master/README.md#1-registrasi)
-2. [Instalasi](https://github.com/tamtama17/Mongodb/blob/master/README.md#2-instalasi)
-3. [Implementasi](https://github.com/tamtama17/Mongodb/blob/master/README.md#3-implementasi)
-   1. [Mongo Shell](https://github.com/tamtama17/Mongodb/blob/master/README.md#31-mongo-shell)
-   2. [MongoDB Compass](https://github.com/tamtama17/Mongodb/blob/master/README.md#32-mongodb-compass)
-4. [Reference](https://github.com/tamtama17/Mongodb/blob/master/README.md#reference)
+1. [Registrasi](#1-registrasi)
+2. [Instalasi](#2-instalasi)
+3. [Implementasi](#3-implementasi)
+   1. [Mongo Shell](#31-mongo-shell)
+   2. [MongoDB Compass](#32-mongodb-compass)
+4. [Reference](#reference)
 
 ### 1. Registrasi
 Hal pertama yang dilakukan adalah melakukan registrasi mongodb [disini](https://cloud.mongodb.com/user#/atlas/register/accountProfile).   
